@@ -1,219 +1,240 @@
-<div class="quiz">
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Simplifying and Graphing</title>
+</head>
+<body>
+  <h1>Simplifying and Graphing</h1>
+  <div class="question">
+    <p>1. What is the simplified version of <i>3-rt(125x^9)</i>?</p>
+    <label>
+      <input type="radio" name="answers[1]" value="A">
+      3-rt(5^3 * x^9)
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[1]" value="B" data-correct>
+      5x^3
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[1]" value="C">
+      10 * 3-rt(3)
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[1]" value="D">
+      3-rt(x^9)
+    </label>
+  </div>
   
-  <h2 class="quiz-question">Q1: How do you spell "Red"?</h2>
-  <ul data-quiz-question="1">
-    <li class="quiz-answer" data-quiz-answer="a">a. Red</li>
-    <li class="quiz-answer" data-quiz-answer="b">b. Reed</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. Req</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. Sed</li>
-  </ul>
+  <div class="question">
+    <p>2. What is the simplified version of <i>(3-rt(64x))/8</i>?</p>
+    <label>
+      <input type="radio" name="answers[2]" value="A">
+      (sqrt(64x))/8
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[2]" value="B">
+      4x
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[2]" value="C">
+      3-rt(2^3 * x^3)
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[2]" value="D" data-correct>
+      2x
+    </label>
+  </div>
   
-  <h2 class="quiz-question">Q2: How do you spell "Green"?</h2>
-  <ul data-quiz-question="2">
-    <li class="quiz-answer" data-quiz-answer="a">a. Greeen</li>
-    <li class="quiz-answer" data-quiz-answer="b">b. Green</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. Gren</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. Grenn</li>
-  </ul>
+  <div class="question">
+    <p>3. What is the value of <i>x</i> in <i>(sqrt(x^2 - 4x)) = (-4 + x)^2</i>?</p>
+    <label>
+      <input type="radio" name="answers[3]" value="A">
+      10
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[3]" value="B">
+      1
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[3]" value="C" data-correct>
+      4
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[3]" value="D">
+      20
+    </label>
+  </div>
   
-  <h2 class="quiz-question">Q3: How do you spell "Blue"?</h2>
-  <ul data-quiz-question="3">
-    <li class="quiz-answer" data-quiz-answer="a">a. Bluue</li>
-    <li class="quiz-answer" data-quiz-answer="b">b. Bluee</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. Btue</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. Blue</li>
-  </ul>
+  <div class="question">
+    <p>4. What is the value of <i>x</i> in <i>sqrt(5x - 12) = 6</i>?</p>
+    <label>
+      <input type="radio" name="answers[4]" value="A" data-correct>
+      9.6
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[4]" value="B">
+      42
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[4]" value="C">
+      7
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[4]" value="D">
+      33
+    </label>
+  </div>
   
-  <h2 class="quiz-question">Q4: How do you spell "HTML"?</h2>
-  <ul data-quiz-question="4">
-    <li class="quiz-answer" data-quiz-answer="a">a. MLTH</li>
-    <li class="quiz-answer" data-quiz-answer="b">b. LMTH</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. HTML</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. HMTL</li>
-  </ul>
+  <div class="question">
+    <p>5. What is the value of <i>x</i> in <i>(sqrt(-5x - 12)) = -6 + x</i>?</p>
+    <label>
+      <input type="radio" name="answers[5]" value="A">
+      5
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[5]" value="B">
+      2
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[5]" value="C" data-correct>
+      -1
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[5]" value="D">
+      1
+    </label>
+  </div>
   
-  <h2 class="quiz-question">Q5: How do you spell "CSS"?</h2>
-  <ul data-quiz-question="5">
-    <li class="quiz-answer" data-quiz-answer="a">a. ASS</li>
-    <li class="quiz-answer" data-quiz-answer="b">b. CAA</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. ASA</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. CSS</li>
-  </ul>
+  <div class="question">
+    <p>6. Which equation matches this graph?</p>
+    <img src="https://goo.gl/tNEcz5" alt="Graph" width="500" height="500"> <br>
+    <label>
+      <input type="radio" name="answers[6]" value="A" data-correct>
+      f(x) = 3 * sqrt(x - 10)
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[6]" value="B">
+      f(x) = 2 * sqrt(x - 10)
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[6]" value="C">
+      f(x) = x^2 + 7x - 2
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[6]" value="D">
+      f(x) = 11 * sqrt(x - 1)
+    </label>
+  </div>
   
-  <h2 class="quiz-question">Q6: How do you spell "JavaScript"?</h2>
-  <ul data-quiz-question="6">
-    <li class="quiz-answer" data-quiz-answer="a">a. ScriptJava</li>
-    <li class="quiz-answer" data-quiz-answer="b">b. JavaScript</li>
-    <li class="quiz-answer" data-quiz-answer="c">c. JabaHutt</li>
-    <li class="quiz-answer" data-quiz-answer="d">d. jQuery</li>
-  </ul>
-</div>
-
-<div class="quiz-result"></div>
-
-var Quiz = function(){
-  var self = this;
-  this.init = function(){
-    self._bindEvents();
-  }
+  <div class="question">
+    <p>7. Which equation matches this graph?</p>
+    <img src="https://goo.gl/SSCp4C" alt="Graph" width="500" height="500"> <br>
+    <label>
+      <input type="radio" name="answers[7]" value="A">
+      f(x) = sqrt(x^2 + 2)
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[7]" value="B">
+      f(x) = 3-rt(x + 12) - 7
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[7]" value="C" data-correct>
+      f(x) = 2 * sqrt(x + 9) - 5
+    </label>
+    
+    <label>
+      <input type="radio" name="answers[7]" value="D">
+      f(x) = 2 * sqrt(x + 5) - 4
+    </label>
+  </div>
   
-  this.correctAnswers = [
-    { question: 1, answer: 'a' },
-    { question: 2, answer: 'b' },
-    { question: 3, answer: 'd' },
-    { question: 4, answer: 'c' },
-    { question: 5, answer: 'd' },
-    { question: 6, answer: 'b' },
-  ]
+  <button id="quiz-submit">Submit</button>
   
-  this._pickAnswer = function($answer, $answers){
-    $answers.find('.quiz-answer').removeClass('active');
-    $answer.addClass('active');
-  }
-  this._calcResult = function(){
-    var numberOfCorrectAnswers = 0;
-    $('ul[data-quiz-question]').each(function(i){
-      var $this = $(this),
-          chosenAnswer = $this.find('.quiz-answer.active').data('quiz-answer'),
-          correctAnswer;
-      
-      for ( var j = 0; j < self.correctAnswers.length; j++ ) {
-        var a = self.correctAnswers[j];
-        if ( a.question == $this.data('quiz-question') ) {
-          correctAnswer = a.answer;
-        }
-      }
-      
-      if ( chosenAnswer == correctAnswer ) {
-        numberOfCorrectAnswers++;
-        
-        // highlight this as correct answer
-        $this.find('.quiz-answer.active').addClass('correct');
-      }
-      else {
-        $this.find('.quiz-answer[data-quiz-answer="'+correctAnswer+'"]').addClass('correct');
-        $this.find('.quiz-answer.active').addClass('incorrect');
-      }
-    });
-    if ( numberOfCorrectAnswers < 3 ) {
-      return {code: 'bad', text: 'Poor spelling skills'};
+  <div>
+    Score: <span id="score">0</span>
+  </div>
+  
+  <style>
+     h1 {
+      background: lightblue;
+      font-family: "Courier New";
     }
-    else if ( numberOfCorrectAnswers == 3 || numberOfCorrectAnswers == 4 ) {
-      return {code: 'mid', text: 'Moderate spelling skills'};
-    }
-    else if ( numberOfCorrectAnswers > 4 ) {
-      return {code: 'good', text: 'Good spelling skills'};
-    }
-  }
-  this._isComplete = function(){
-    var answersComplete = 0;
-    $('ul[data-quiz-question]').each(function(){
-      if ( $(this).find('.quiz-answer.active').length ) {
-        answersComplete++;
-      }
-    });
-    if ( answersComplete >= 6 ) {
-      return true;
-    }
-    else {
-      return false;
-    }
-  }
-  this._showResult = function(result){
-    $('.quiz-result').addClass(result.code).html(result.text);
-  }
-  this._bindEvents = function(){
-    $('.quiz-answer').on('click', function(){
-      var $this = $(this),
-          $answers = $this.closest('ul[data-quiz-question]');
-      self._pickAnswer($this, $answers);
-      if ( self._isComplete() ) {
-        
-        // scroll to answer section
-        $('html, body').animate({
-          scrollTop: $('.quiz-result').offset().top
-        });
-        
-        self._showResult( self._calcResult() );
-        $('.quiz-answer').off('click');
-        
-      }
-    });
-  }
-}
-var quiz = new Quiz();
-quiz.init();
-
-body {
-  margin: 0;
+    body {
+    background: lightblue;
+    font-size: 18px;
+    font-family: "Courier New";
+   }
+.question {
   padding: 20px;
+  background: #9298ab;
+  margin-bottom: -10px;
 }
-.quiz {
-  padding: 0 30px 20px 30px;
-  max-width: 960px;
-  margin: 0 auto;
+.quiz-msg {
+  padding: 8px;
+  margin-top: 16px;
 }
-.quiz ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.quiz-msg.correct {
+  background: #66db79;
 }
-.quiz-question {
-  font-weight: bold;
-  display: block;
-  padding: 30px 0 10px 0;
-  margin: 0;
+.quiz-msg.incorrect {
+  background: #bd3838;
+  padding: 3px;
 }
-.quiz-answer {
-  margin: 0;
-  padding: 10px;
-  background: #f7f7f7;
-  margin-bottom: 5px;
-  cursor: pointer;
+.correct {
+background: #66db79;
+padding: 3px;
 }
-.quiz-answer:hover {
-  background: #eee;
-}
-.quiz-answer:before {
-  content: "";
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  border: 1px solid #ccc;
-  background: #fff;
-  vertical-align: middle;
-  margin-right: 10px;
-}
-.quiz-answer.active:before {
-  background-color: #333;
-  border-color: #333;
-}
-.quiz-answer.correct:before {
-  background-color: green;
-  border-color: green;
-}
-.quiz-answer.incorrect:before {
-  background-color: red;
-  border-color: red;
-}
-.quiz-answer.active.correct:before {
-  outline: 2px solid green;
-  outline-offset: 2px;
-}
-.quiz-result {
-  max-width: 960px;
-  margin: 0 auto;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  padding: 20px;
-}
-.quiz-result.good {
-  background: green;
-}
-.quiz-result.mid {
-  background: orange;
-}
-.quiz-result.bad {
-  background: red;
-}
+  </style>
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+     $(document).ready(function(){
+    $('#quiz-submit').on('click', function(){
+       var score = 0;
+    $('.question').each(function(){
+      $('.quiz-msg', this).remove();
+      
+      var correct = $(this).find(':checked[data-correct]').length;
+      
+      if( correct == 1){
+        score++;
+        var msgHTML = '<div class="quiz-msg correct">Correct!</div>';
+        $(this).append(msgHTML);
+      }else{
+        var alrtHTML = '<div class="quiz-msg incorrect">Incorrect!</div>';
+        $(this).append(alrtHTML);
+      }
+      
+    });
+    
+    $('#score').text(score);
+    
+    
+  });
+  
+}); 
+  </script>
+</body>
+</html>
